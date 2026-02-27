@@ -1,0 +1,28 @@
+{
+  "name": "cashthesis-videos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:intro": "remotion render src/index.ts IntroVideo out/intro.mp4",
+    "render:news": "remotion render src/index.ts NewsAlert out/news-alert.mp4",
+    "render:axiom": "remotion render src/index.ts AxiomScandal out/axiom-scandal.mp4",
+    "preview": "remotion preview src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.429",
+    "@remotion/cli": "^4.0.429",
+    "@remotion/google-fonts": "^4.0.429",
+    "@remotion/media": "4.0.429",
+    "@remotion/sfx": "4.0.429",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.429",
+    "typescript": "^5.9.3"
+  }
+}
